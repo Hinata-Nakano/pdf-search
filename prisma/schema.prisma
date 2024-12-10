@@ -17,6 +17,5 @@ model PdfFile {
   id          Int      @id @default(autoincrement())
   fileName    String
   filePath    String
-  uploadedAt  DateTime @default(now())
 }
 
